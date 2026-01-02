@@ -1,5 +1,5 @@
-import React from 'react'
 import styled from "styled-components"
+import Card from "./Card"
 
 const PreviewDiv = styled.div`
     flex-basis: 50%;
@@ -9,7 +9,7 @@ const TitleH1 = styled.h1`
     width: 100%;
     text-align: center;
     margin-bottom: 1em;
-    color: #815b5b;
+    color; #815b5b;
 `
 const CardsUl = styled.ul`
     width: 100%;
@@ -25,8 +25,8 @@ const Preview = ({cards}) => {
       <TitleH1>Card Preview</TitleH1>
       <CardsUl>
       {
-        Object.keys(cards).map(card => (
-          <li>card</li>
+        Object.keys(cards).map(key => (
+          <Card key={key} card={cards[key]} />
         ))
       }
       </CardsUl>
