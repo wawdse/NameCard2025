@@ -1,5 +1,4 @@
-import React from 'react'
-import styled from 'styled-components'
+import styled from "styled-components"
 
 const FooterDiv = styled.div`
     width: 100%;
@@ -10,13 +9,12 @@ const FooterDiv = styled.div`
 const TitleP = styled.p`
     color: white;
 `
-
 const Footer = () => {
   return (
     <>
       <FooterDiv>
-        <TitleP>JUST DO IT</TitleP>
-      </FooterDiv>  
+        <TitleP>No pain, No gain</TitleP>
+      </FooterDiv>
     </>
   )
 }

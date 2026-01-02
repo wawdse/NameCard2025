@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from "styled-components"
 
 const PreviewDiv = styled.div`
@@ -8,7 +9,7 @@ const TitleH1 = styled.h1`
     width: 100%;
     text-align: center;
     margin-bottom: 1em;
-    color; #815b5b;
+    color: #815b5b;
 `
 const CardsUl = styled.ul`
     width: 100%;
